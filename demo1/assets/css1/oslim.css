@@ -468,7 +468,7 @@ input[type="search"]::-webkit-search-results-decoration {
     float: left;
     padding-top: 36px;
     padding-bottom: 36px;
-    margin-right: 125px;
+    margin-right: 125px !important;
 }
 
 .main-menu-wrapper__logo:before {
