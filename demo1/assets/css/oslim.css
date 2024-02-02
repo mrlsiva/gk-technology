@@ -622,16 +622,9 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu .main-menu__list>li+li,
 .stricky-header .main-menu__list>li+li {
-    margin-left: 30px;
+    margin-left: 80px;
 }
-.flex-row-space-between-center {
-    height: 100%;
-    flex-direction: row;
-    box-sizing: border-box;
-    display: flex;
-    place-content: center space-between;
-    align-items: center;
-}
+
 .main-menu .main-menu__list>li>a,
 .stricky-header .main-menu__list>li>a {
     font-size: 14px;
@@ -4772,8 +4765,9 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .tab-content__img img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: auto;
+    padding-top: 50px;
 }
 
 .tab-content__contnet {
