@@ -632,7 +632,11 @@ input[type="search"]::-webkit-search-results-decoration {
     place-content: center space-between;
     align-items: center;
 }
-
+@media screen and (max-width:1400px){
+    .main-menu {
+      padding: 0 30px;
+  }
+}
 .main-menu .main-menu__list>li>a,
 .stricky-header .main-menu__list>li>a {
     font-size: 14px;
