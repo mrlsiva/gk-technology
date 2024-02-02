@@ -622,7 +622,15 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu .main-menu__list>li+li,
 .stricky-header .main-menu__list>li+li {
-    margin-left: 80px;
+    margin-left: 30px;
+}
+.flex-row-space-between-center {
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center space-between;
+    align-items: center;
 }
 
 .main-menu .main-menu__list>li>a,
